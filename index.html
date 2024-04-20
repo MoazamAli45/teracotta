@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta
+      name="google-site-verification"
+      content="NjhKGJC-1ed6D0-UBjNSPFpxofurxlxB0GjyT66OIXk"
+    />
+
+    <title>Almion</title>
+    <!-- <meta name="google-site-verification" content="NjhKGJC-1ed6D0-UBjNSPFpxofurxlxB0GjyT66OIXk" />
+    <link rel='dns-prefetch' href='//code.jquery.com' />
+    <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+    <link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+    <link rel='dns-prefetch' href='//unpkg.com' />
+    <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+    <link rel='dns-prefetch' href='//s.w.org' /> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js?ver=3.5.1"
+      id="jQuery-js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js?ver=3.5.1"
+      id="greensock-js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js?ver=3.5.1"
+      id="scrollTrigger-js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/EasePack.min.js?ver=3.0.1"
+      id="easepack-js"
+    ></script>
+    <script
+      src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js?ver=4.1.4"
+      id="imagesLoaded-js"
+    ></script>
+    <script
+      src="https://unpkg.com/@barba/core?ver=2.4.0"
+      id="barba-js"
+    ></script>
+    <script
+      src="https://unpkg.com/@barba/prefetch?ver=2.4.0"
+      id="barbaPrefetch-js"
+    ></script>
+    <script
+      src="https://unpkg.com/smooth-scrollbar@latest/dist/smooth-scrollbar.js?ver=8.5.3"
+      id="smoothScrollbar-js"
+    ></script>
+
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/style-min.css" />
+  </head>
+
+  <body
+    class="home page-template page-template-page-home page-template-page-home-php page page-id-8 is-loading"
+    data-barba="wrapper"
+  >
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KDFHXKS"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+
+    <div class="loader">
+      <div class="loader__mask">
+        <!-- <div class="inner">
+                <div class="progress"></div>
+            </div> -->
+      </div>
+    </div>
+    <div class="loader__content">
+      <div class="inner">
+        <!-- this will be animated on top of the dark background -->
+        <div class="loader__title">
+          <!-- <div class="loader__title--mask"><span>Algo sobre </span></div>
+                <div class="loader__title--mask"><span>la tierra</span></div> -->
+        </div>
+        <div class="loader__image">
+          <div class="loader__image--mask">
+            <img
+              src="./assets/images/SOL.svg"
+              width="100px"
+              alt=""
+              class="rotate-image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="viewport">
+      <div class="header__mobile">
+        <nav id="site-navigation" class="navigation">
+          <div class="logo__container">
+            <div class="logoMob">
+              <a href="index.html">
+                <img src="./assets/images/SOL.svg" class="logo-sun" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="" style="display: flex; gap: 30px; align-items: center">
+            <a
+              class="link__nav nav-link2"
+              style="color: #dba171"
+              href="services.html"
+              >Servicios</a
+            >
+
+            <a
+              class="link__nav nav-link2"
+              style="color: #dba171"
+              href="contact.html"
+              >Contacto</a
+            >
+
+            <div class="menu__nav__container">
+              <button
+                class="menu__nav"
+                id="menuButton"
+                style="
+                  cursor: pointer;
+                  background-color: transparent;
+                  border: none;
+                  padding: 0px !important;
+                "
+              >
+                Menú
+              </button>
+            </div>
+            <div class="hidden__nav">
+              <div style="display: flex; justify-content: center">
+                <img src="./assets/images/SOL.svg" class="logo-sun" alt="" />
+                <svg
+                  class="xclose"
+                  viewBox="0 0 241.171 241.171"
+                  style="enable-background: new 0 0 241.171 241.171"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      d="M138.138,120.754l99.118-98.576c4.752-4.704,4.752-12.319,0-17.011c-4.74-4.704-12.439-4.704-17.179,0
+                            l-99.033,98.492L21.095,3.699c-4.74-4.752-12.439-4.752-17.179,0c-4.74,4.764-4.74,12.475,0,17.227l99.876,99.888L3.555,220.497
+                            c-4.74,4.704-4.74,12.319,0,17.011c4.74,4.704,12.439,4.704,17.179,0l100.152-99.599l99.551,99.563
+                            c4.74,4.752,12.439,4.752,17.179,0c4.74-4.764,4.74-12.475,0-17.227L138.138,120.754z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="hidden__container">
+                <a class="link__nav" href="services.html">Servicios</a>
+                <a class="link__nav" href="Elequipo.html">Quienes somos</a>
+                <a class="link__nav mPro" href="projects.html">Portafolio </a>
+                <a class="link__nav" href="contact.html">Contacto</a>
+                <a class="link__nav" href="Blog.html">Blog</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main
+        id="main"
+        class="home"
+        data-barba="container"
+        data-barba-namespace="inicio"
+      >
+        <div id="alalimon" class="atf">
+          <div class="semi__container">
+            <svg
+              width="28.59375vw"
+              height="56.25vw"
+              viewBox="0 0 549 1080"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8.67572" cy="539.752" r="539.252" stroke="#DACDB0" />
+            </svg>
+          </div>
+          <div class="elipse__container">
+            <svg
+              width="71.40625vw"
+              height="56.25vw"
+              viewBox="0 0 1371 1080"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1370.1 539.752C1370.1 576.857 1353.42 613.126 1323.57 648.207C1293.72 683.288 1250.73 717.149 1198.17 749.422C1093.05 813.966 949.772 872.105 797.147 920.938C492.231 1018.5 150.168 1078.87 0.926758 1079V0.500226C150.168 0.634991 492.231 61.007 797.147 158.566C949.772 207.399 1093.05 265.538 1198.17 330.082C1250.73 362.355 1293.72 396.215 1323.57 431.297C1353.42 466.378 1370.1 502.647 1370.1 539.752Z"
+                stroke="#DACDB0"
+              />
+            </svg>
+          </div>
+          <div class="atf__inner__container">
+            <div class="titleUp__container">
+              <!-- <div
+                class="titleUp__inner__container"
+                style="padding-bottom: 10px"
+              >
+                <span class="titleUp__title"
+                  >terracotta <span class="halimum-font">origen</span>
+                </span>
+              </div> -->
+              <div class="title__logo">
+                <img src="./assets/images/main-logo.svg" alt="logo" />
+              </div>
+            </div>
+            <div class="titleUp__container">
+              <div
+                class="titleUp__inner__container"
+                style="text-align: center; padding: 10px 0px"
+              >
+                <span class="titleUp__title2"
+                  >DISEÑO Y DECORACIÓN
+                  <span style="text-decoration: underline">SOSTENIBLE</span>
+                </span>
+              </div>
+            </div>
+            <div class="video__container">
+              <div class="video__inner__container">
+                <!-- <video class="dsk" playsinline="" autoplay="" muted="" loop="">
+                                <source src="./assets/images/TOP IMAGES GOOD SIZE.mp4" type="video/mp4">
+                            </video>
+                            <video class="mbl" playsinline autoplay muted loop>
+                                <source src="./assets/images/MOBILE DEVICES.mp4" type="video/mp4">
+                            </video> -->
+                <img
+                  src="./assets/images/pexels-jonathan-borba-11994915.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="language__container">
+              <div class="language__inner__container">
+                <span class="language__title">Esp | Eng</span>
+              </div>
+            </div>
+            <div class="play__container">
+              <div class="play__inner__container">
+                <!-- <span class="play__title">Creating Unforgettable moments</span> -->
+              </div>
+            </div>
+
+            <div class="social__container">
+              <div class="social__inner__container">
+                <a
+                  href="https://www.instagram.com/terracottaorigen/?igsh=MzRlODBiNWFlZA%3D%3D"
+                  class="social__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+                <a href="#" class="social__link" rel="noopener noreferrer"
+                  >El Estudio</a
+                >
+                <a href="#" class="social__link" rel="noopener noreferrer"
+                  >El equipo</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="scrollDown__container">
+                    <div class="scrollDown__inner__container">
+                        <div class="scrollDown"></div>
+                    </div>
+                </div> -->
+        </div>
+        <div class="mantra">
+          <div class="mantra__container">
+            <h2 class="mantra__title" style="font-weight: 100">
+              Combinamos el estilo con el arte y la ética ambiental.
+            </h2>
+            <h2 class="mantra__title" style="padding: 10px 0px; margin: 0">
+              Creamos momentos bellos de una manera respetuosa con el planeta y
+              con nuestra comunidad.
+            </h2>
+            <img
+              src="./assets/images/SOL.svg"
+              style="padding-top: 10px"
+              class="logo-sun"
+              alt=""
+            />
+
+            <!-- <div class="star__container">
+                        <img src="./assets/images/SUN RED.svg" width="100px" alt="">
+                        <img src="./assets/images/SUN RED.svg" width="100px" alt="">
+                        <img src="./assets/images/SUN RED.svg" width="100px" alt="">
+
+                    </div> -->
+          </div>
+        </div>
+        <!-- <div class="seleccionados__container">
+                <div class="seleccionados__inner__container">
+                    <div class="img__container">
+                        <img src="./assets/images/LOGO SUN GREY.svg" width="100px" alt="">
+                    </div>
+                    <div class="title__container">
+                        <span class="title">Proyectos seleccionados</span>
+                    </div>
+                </div>
+            </div> -->
+        <!-- <div class="mallorquina__container triggerImg triggerText">
+                <div class="mallorquina__left">
+                    <div class="img__inner__container">
+
+                        <img class="imageUp" src="./assets/images/296A2298.jpg">
+                    </div>
+                </div>
+                <div class="mallorquina__right">
+                    <div class="title__container">
+                        <span class="title showTitle">PROYECTO 1</span>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb showText">Dirección de arte</span>
+                        <span class="atb showText">Branding</span>
+                        <span class="atb showText">NOVIEMBRE 2022</span>
+                    </div>
+                    <div class="link__container">
+                        <a href="/proyecto/addictions-design//" class="link showLink">Ver proyecto<svg width="4vw"
+                                height="2vw" viewBox="0 0 68 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.839843 18.3936L66.4043 18.3936M66.4043 18.3936L51.7885 37.7634M66.4043 18.3936L51.7885 0.951185"
+                                    stroke="#D0833D" stroke-width="2" />
+                            </svg></a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="img__container">
+
+                        <img class="imageDown" src="./assets/images/296A2297.jpg">
+                    </div>
+                </div>
+            </div> -->
+        <!-- <div class="besana__container triggerImg triggerText">
+                <div class="besana__left">
+                    <div class="title__container">
+                        <span class="title showTitle">Besana</span>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb showText">Branding</span>
+                    </div>
+                    <div class="img__container">
+
+                        <img class="imageUp" src="./assets/images/296A22802.jpg" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="imgBack__container">
+                        <svg class="imageDown" viewBox="0 0 958 449" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path
+                                    d="M336.168 47.7275V347.548L63.7082 47.7275H-75.3718V446.728H27.2282V147.478L299.118 446.728H438.768V47.7275H336.168ZM1014.51 446.728H1127.94L921.603 47.7275H783.093L577.323 446.728H690.183L732.933 361.798H971.763L1014.51 446.728ZM771.123 285.418L852.633 123.538L933.573 285.418H771.123Z"
+                                    fill="url(#paint0_linear)" />
+                                <path
+                                    d="M336.168 47.7275V45.7275H334.168V47.7275H336.168ZM336.168 347.548L334.688 348.893L338.168 352.722V347.548H336.168ZM63.7082 47.7275L65.1883 46.3824L64.5931 45.7275H63.7082V47.7275ZM-75.3718 47.7275V45.7275H-77.3718V47.7275H-75.3718ZM-75.3718 446.728H-77.3718V448.728H-75.3718V446.728ZM27.2282 446.728V448.728H29.2282V446.728H27.2282ZM27.2282 147.478L28.7084 146.133L25.2282 142.302V147.478H27.2282ZM299.118 446.728L297.638 448.072L298.233 448.728H299.118V446.728ZM438.768 446.728V448.728H440.768V446.728H438.768ZM438.768 47.7275H440.768V45.7275H438.768V47.7275ZM334.168 47.7275V347.548H338.168V47.7275H334.168ZM337.648 346.202L65.1883 46.3824L62.228 49.0726L334.688 348.893L337.648 346.202ZM63.7082 45.7275H-75.3718V49.7275H63.7082V45.7275ZM-77.3718 47.7275V446.728H-73.3718V47.7275H-77.3718ZM-75.3718 448.728H27.2282V444.728H-75.3718V448.728ZM29.2282 446.728V147.478H25.2282V446.728H29.2282ZM25.7479 148.822L297.638 448.072L300.598 445.383L28.7084 146.133L25.7479 148.822ZM299.118 448.728H438.768V444.728H299.118V448.728ZM440.768 446.728V47.7275H436.768V446.728H440.768ZM438.768 45.7275H336.168V49.7275H438.768V45.7275ZM1014.51 446.728L1012.73 447.627L1013.28 448.728H1014.51V446.728ZM1127.94 446.728V448.728H1131.23L1129.72 445.809L1127.94 446.728ZM921.603 47.7275L923.379 46.8088L922.82 45.7275H921.603V47.7275ZM783.093 47.7275V45.7275H781.874L781.315 46.8108L783.093 47.7275ZM577.323 446.728L575.545 445.811L574.041 448.728H577.323V446.728ZM690.183 446.728V448.728H691.415L691.969 447.627L690.183 446.728ZM732.933 361.798V359.798H731.7L731.146 360.898L732.933 361.798ZM971.763 361.798L973.549 360.898L972.995 359.798H971.763V361.798ZM771.123 285.418L769.336 284.518L767.876 287.418H771.123V285.418ZM852.633 123.538L854.422 122.643L852.639 119.078L850.846 122.638L852.633 123.538ZM933.573 285.418V287.418H936.809L935.362 284.523L933.573 285.418ZM1014.51 448.728H1127.94V444.728H1014.51V448.728ZM1129.72 445.809L923.379 46.8088L919.826 48.6462L1126.17 447.646L1129.72 445.809ZM921.603 45.7275H783.093V49.7275H921.603V45.7275ZM781.315 46.8108L575.545 445.811L579.1 447.644L784.87 48.6442L781.315 46.8108ZM577.323 448.728H690.183V444.728H577.323V448.728ZM691.969 447.627L734.719 362.697L731.146 360.898L688.396 445.828L691.969 447.627ZM732.933 363.798H971.763V359.798H732.933V363.798ZM969.976 362.697L1012.73 447.627L1016.3 445.828L973.549 360.898L969.976 362.697ZM772.909 286.317L854.419 124.437L850.846 122.638L769.336 284.518L772.909 286.317ZM850.844 124.432L931.784 286.312L935.362 284.523L854.422 122.643L850.844 124.432ZM933.573 283.418H771.123V287.418H933.573V283.418Z"
+                                    fill="#816D3B" />
+                                <path
+                                    d="M336.168 25.7275V325.548L63.7082 25.7275H-75.3718V424.728H27.2282V125.478L299.118 424.728H438.768V25.7275H336.168ZM1014.51 424.728H1127.94L921.603 25.7275H783.093L577.323 424.728H690.183L732.933 339.798H971.763L1014.51 424.728ZM771.123 263.418L852.633 101.538L933.573 263.418H771.123Z"
+                                    fill="url(#paint1_linear)" />
+                                <path
+                                    d="M336.168 25.7275V23.7275H334.168V25.7275H336.168ZM336.168 325.548L334.688 326.893L338.168 330.722V325.548H336.168ZM63.7082 25.7275L65.1883 24.3824L64.5931 23.7275H63.7082V25.7275ZM-75.3718 25.7275V23.7275H-77.3718V25.7275H-75.3718ZM-75.3718 424.728H-77.3718V426.728H-75.3718V424.728ZM27.2282 424.728V426.728H29.2282V424.728H27.2282ZM27.2282 125.478L28.7084 124.133L25.2282 120.302V125.478H27.2282ZM299.118 424.728L297.638 426.072L298.233 426.728H299.118V424.728ZM438.768 424.728V426.728H440.768V424.728H438.768ZM438.768 25.7275H440.768V23.7275H438.768V25.7275ZM334.168 25.7275V325.548H338.168V25.7275H334.168ZM337.648 324.202L65.1883 24.3824L62.228 27.0726L334.688 326.893L337.648 324.202ZM63.7082 23.7275H-75.3718V27.7275H63.7082V23.7275ZM-77.3718 25.7275V424.728H-73.3718V25.7275H-77.3718ZM-75.3718 426.728H27.2282V422.728H-75.3718V426.728ZM29.2282 424.728V125.478H25.2282V424.728H29.2282ZM25.7479 126.822L297.638 426.072L300.598 423.383L28.7084 124.133L25.7479 126.822ZM299.118 426.728H438.768V422.728H299.118V426.728ZM440.768 424.728V25.7275H436.768V424.728H440.768ZM438.768 23.7275H336.168V27.7275H438.768V23.7275ZM1014.51 424.728L1012.73 425.627L1013.28 426.728H1014.51V424.728ZM1127.94 424.728V426.728H1131.23L1129.72 423.809L1127.94 424.728ZM921.603 25.7275L923.379 24.8088L922.82 23.7275H921.603V25.7275ZM783.093 25.7275V23.7275H781.874L781.315 24.8108L783.093 25.7275ZM577.323 424.728L575.545 423.811L574.041 426.728H577.323V424.728ZM690.183 424.728V426.728H691.415L691.969 425.627L690.183 424.728ZM732.933 339.798V337.798H731.7L731.146 338.898L732.933 339.798ZM971.763 339.798L973.549 338.898L972.995 337.798H971.763V339.798ZM771.123 263.418L769.336 262.518L767.876 265.418H771.123V263.418ZM852.633 101.538L854.422 100.643L852.639 97.0779L850.846 100.638L852.633 101.538ZM933.573 263.418V265.418H936.809L935.362 262.523L933.573 263.418ZM1014.51 426.728H1127.94V422.728H1014.51V426.728ZM1129.72 423.809L923.379 24.8088L919.826 26.6462L1126.17 425.646L1129.72 423.809ZM921.603 23.7275H783.093V27.7275H921.603V23.7275ZM781.315 24.8108L575.545 423.811L579.1 425.644L784.87 26.6442L781.315 24.8108ZM577.323 426.728H690.183V422.728H577.323V426.728ZM691.969 425.627L734.719 340.697L731.146 338.898L688.396 423.828L691.969 425.627ZM732.933 341.798H971.763V337.798H732.933V341.798ZM969.976 340.697L1012.73 425.627L1016.3 423.828L973.549 338.898L969.976 340.697ZM772.909 264.317L854.419 102.437L850.846 100.638L769.336 262.518L772.909 264.317ZM850.844 102.432L931.784 264.312L935.362 262.523L854.422 100.643L850.844 102.432ZM933.573 261.418H771.123V265.418H933.573V261.418Z"
+                                    fill="#816D3B" />
+                                <path
+                                    d="M336.168 2.99997V302.82L63.7082 2.99997H-75.3718V402H27.2282V102.75L299.118 402H438.768V2.99997H336.168ZM1014.51 402H1127.94L921.603 2.99997H783.093L577.323 402H690.183L732.933 317.07H971.763L1014.51 402ZM771.123 240.69L852.633 78.81L933.573 240.69H771.123Z"
+                                    fill="url(#paint2_linear)" />
+                                <path
+                                    d="M336.168 2.99997V0.999969H334.168V2.99997H336.168ZM336.168 302.82L334.688 304.165L338.168 307.995V302.82H336.168ZM63.7082 2.99997L65.1883 1.65491L64.5931 0.999969H63.7082V2.99997ZM-75.3718 2.99997V0.999969H-77.3718V2.99997H-75.3718ZM-75.3718 402H-77.3718V404H-75.3718V402ZM27.2282 402V404H29.2282V402H27.2282ZM27.2282 102.75L28.7084 101.405L25.2282 97.5746V102.75H27.2282ZM299.118 402L297.638 403.345L298.233 404H299.118V402ZM438.768 402V404H440.768V402H438.768ZM438.768 2.99997H440.768V0.999969H438.768V2.99997ZM334.168 2.99997V302.82H338.168V2.99997H334.168ZM337.648 301.475L65.1883 1.65491L62.228 4.34504L334.688 304.165L337.648 301.475ZM63.7082 0.999969H-75.3718V4.99997H63.7082V0.999969ZM-77.3718 2.99997V402H-73.3718V2.99997H-77.3718ZM-75.3718 404H27.2282V400H-75.3718V404ZM29.2282 402V102.75H25.2282V402H29.2282ZM25.7479 104.095L297.638 403.345L300.598 400.655L28.7084 101.405L25.7479 104.095ZM299.118 404H438.768V400H299.118V404ZM440.768 402V2.99997H436.768V402H440.768ZM438.768 0.999969H336.168V4.99997H438.768V0.999969ZM1014.51 402L1012.73 402.899L1013.28 404H1014.51V402ZM1127.94 402V404H1131.23L1129.72 401.081L1127.94 402ZM921.603 2.99997L923.379 2.08127L922.82 0.999969H921.603V2.99997ZM783.093 2.99997V0.999969H781.874L781.315 2.08327L783.093 2.99997ZM577.323 402L575.545 401.083L574.041 404H577.323V402ZM690.183 402V404H691.415L691.969 402.899L690.183 402ZM732.933 317.07V315.07H731.7L731.146 316.171L732.933 317.07ZM971.763 317.07L973.549 316.171L972.995 315.07H971.763V317.07ZM771.123 240.69L769.336 239.791L767.876 242.69H771.123V240.69ZM852.633 78.81L854.422 77.9156L852.639 74.3504L850.846 77.9105L852.633 78.81ZM933.573 240.69V242.69H936.809L935.362 239.796L933.573 240.69ZM1014.51 404H1127.94V400H1014.51V404ZM1129.72 401.081L923.379 2.08127L919.826 3.91868L1126.17 402.919L1129.72 401.081ZM921.603 0.999969H783.093V4.99997H921.603V0.999969ZM781.315 2.08327L575.545 401.083L579.1 402.917L784.87 3.91668L781.315 2.08327ZM577.323 404H690.183V400H577.323V404ZM691.969 402.899L734.719 317.969L731.146 316.171L688.396 401.101L691.969 402.899ZM732.933 319.07H971.763V315.07H732.933V319.07ZM969.976 317.969L1012.73 402.899L1016.3 401.101L973.549 316.171L969.976 317.969ZM772.909 241.589L854.419 79.7094L850.846 77.9105L769.336 239.791L772.909 241.589ZM850.844 79.7044L931.784 241.584L935.362 239.796L854.422 77.9156L850.844 79.7044ZM933.573 238.69H771.123V242.69H933.573V238.69Z"
+                                    fill="#816D3B" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="400" y1="-405.272" x2="400" y2="1520.23"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FCEBE2" />
+                                    <stop offset="1" stop-color="#CB8771" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="400" y1="-427.272" x2="400" y2="1498.23"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.0001" stop-color="#FCEBE2" />
+                                    <stop offset="1" stop-color="#CB8771" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="400" y1="-450" x2="400" y2="1475.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.0001" stop-color="#FCEBE2" />
+                                    <stop offset="1" stop-color="#CB8771" />
+                                </linearGradient>
+                                <clipPath id="clip0">
+                                    <rect width="958" height="449" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="link__container">
+                        <a href="/proyecto/besana/" class="link showLink">Ver proyecto<svg width="4vw" height="2vw"
+                                viewBox="0 0 68 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.839843 18.3936L66.4043 18.3936M66.4043 18.3936L51.7885 37.7634M66.4043 18.3936L51.7885 0.951185"
+                                    stroke="#D94531" stroke-width="2" />
+                            </svg></a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="besana__right">
+                    <div class="img__inner__container">
+
+                        <img class="imageUp" src="./assets/images/18.11.2023 (1).png">
+                    </div>
+                </div>
+                <div class="besana__mobile">
+                    <div class="title__container">
+                        <span class="title">Besana</span>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb">Branding</span>
+                    </div>
+                    <div class="link__container">
+                        <a href="#" class="linkMobile">Ver proyecto</a>
+                    </div>
+                </div>
+            </div> -->
+        <!-- <div class="cartuja__container triggerImg triggerText">
+                <div class="cartuja__left">
+                    <div class="title__container">
+                        <span class="title showTitle">5 vistas</span>
+                        <span class="title showTitle">de Cartuja</span>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb showText">Dirección de arte</span>
+                        <span class="atb showText">Branding</span>
+                        <span class="atb showText">Diseño de producto</span>
+                    </div>
+                    <div class="link__container">
+                        <a href="/proyecto/cinco-vistas-cartuja/" class="link showLink">Ver proyecto<svg width="4vw"
+                                height="2vw" viewBox="0 0 68 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.839843 18.3936L66.4043 18.3936M66.4043 18.3936L51.7885 37.7634M66.4043 18.3936L51.7885 0.951185"
+                                    stroke="#D94531" stroke-width="2" />
+                            </svg></a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="img__container">
+
+                        <img class="imageDown" src="./assets/images/296A2269.jpg">
+                    </div>
+                </div>
+                <div class="cartuja__right">
+                    <div class="img__inner__container">
+                        <img class="imageUp" src="./assets/images/18.11.2023-removebg-preview.png">
+
+
+
+
+                    </div>
+                </div>
+                <div class="cartuja__mobile">
+                    <div class="title__container">
+                        <span class="title">5 vistas</span>
+                        <span class="title">de Cartuja</span>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb">Dirección de arte</span>
+                        <span class="atb">Branding</span>
+                        <span class="atb">Diseño de producto</span>
+                    </div>
+                    <div class="link__container">
+                        <a href="#" class="linkMobile">Ver proyecto</a>
+                    </div>
+                </div>
+            </div> -->
+        <div class="proyectos">
+          <div class="ellipse__container">
+            <svg
+              width="74.47916666666667vw"
+              height="48.854166666666664vw"
+              viewBox="0 0 1430 938"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.500122 469C0.500122 501.188 17.8802 532.678 49.0347 563.162C80.1859 593.643 125.058 623.067 179.915 651.111C289.625 707.197 439.169 757.717 598.461 800.15C916.71 884.926 1273.74 937.388 1429.5 937.5V0.50018C1273.74 0.612389 916.71 53.0744 598.461 137.85C439.169 180.283 289.625 230.803 179.915 286.889C125.058 314.933 80.1859 344.357 49.0347 374.838C17.8802 405.322 0.500122 436.812 0.500122 469Z"
+                stroke="#A8935E"
+              />
+            </svg>
+          </div>
+          <div class="semi__container">
+            <svg
+              width="25.416666666666668vw"
+              height="48.854166666666664vw"
+              viewBox="0 0 488 938"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                r="468.5"
+                transform="matrix(-1 0 0 1 469 469)"
+                stroke="#A8935E"
+              />
+            </svg>
+          </div>
+          <div class="proyectos__container">
+            <div class="title__container">
+              <h2 class="title__inner">Decoración sostenible</h2>
+              <p class="title__inner1">
+                Fusionamos arte, belleza y diseño consciente, para crear
+                espacios inspiradores y respetuosos con el medio ambiente,
+                reflejando nuestro compromiso con el futuro.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="miembros" style="padding: 40px 0px">
+          <article
+            style="margin: 0px 20px; position: relative"
+            class="qodef-e qodef-blog-item info-cards qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+          >
+            <div class="qodef-e-inner">
+              <div class="qodef-e-media">
+                <div class="qodef-e-media-image">
+                  <div style="position: relative; display: inline-block">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./assets/images/landing/1.png"
+                      class="attachment-full size-full"
+                      alt="a"
+                      style="width: 100%; height: 100%"
+                    />
+                    <div
+                      style="
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 99%;
+                        background-color: rgba(219, 161, 113, 0.5);
+                        text-align: center;
+                        color: white;
+                        padding: 20px;
+                      "
+                    >
+                      <div
+                        class=""
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: center;
+                          align-items: center;
+                          height: 100%;
+                        "
+                      >
+                        <!-- Your overlay content goes here -->
+                        <h2 class="font-change">
+                          bodas & <br />
+                          eventos
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article
+            style="margin: 0px 20px"
+            class="qodef-e qodef-blog-item info-cards qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+          >
+            <div class="qodef-e-inner">
+              <div class="qodef-e-media">
+                <div class="qodef-e-media-image">
+                  <div style="position: relative; display: inline-block">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./assets/images/landing/2.png"
+                      class="attachment-full size-full"
+                      alt="a"
+                      style="width: 100%"
+                    />
+                    <div
+                      style="
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 99%;
+                        background-color: rgba(219, 161, 113, 0.5);
+                        text-align: center;
+                        color: white;
+                        padding: 20px;
+                      "
+                    >
+                      <div
+                        class=""
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: center;
+                          align-items: center;
+                          height: 100%;
+                        "
+                      >
+                        <!-- Your overlay content goes here -->
+                        <h2 class="font-change">
+                          negocios & <br />
+                          Empresas
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article
+            style="margin: 0px 20px"
+            class="qodef-e qodef-blog-item info-cards qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+          >
+            <div class="qodef-e-inner">
+              <div class="qodef-e-media">
+                <div class="qodef-e-media-image">
+                  <div style="position: relative; display: inline-block">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./assets/images/landing/3.png"
+                      class="attachment-full size-full"
+                      alt="a"
+                      style="width: 100%"
+                    />
+                    <div
+                      style="
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 99%;
+                        background-color: rgba(219, 161, 113, 0.5);
+                        text-align: center;
+                        color: white;
+                        padding: 20px;
+                      "
+                    >
+                      <div
+                        class=""
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: center;
+                          align-items: center;
+                          height: 100%;
+                        "
+                      >
+                        <!-- Your overlay content goes here -->
+                        <h2 class="font-change">
+                          decoración <br />
+                          de interiores
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- <div class="porque__container" id="services">
+                <div class="porque__inner__container">
+                    <div class="img__container">
+                        <svg viewBox="0 0 87 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M65.4261 25.7752C65.8558 23.6469 67.4589 21.8969 69.3348 20.7771C71.2107 19.6574 73.352 19.0753 75.4633 18.508C73.3034 17.4809 70.6801 17.4735 68.5165 18.4857C67.8737 18.1261 68.1129 17.1769 68.3408 16.4798C68.5688 15.7828 68.4305 14.7075 67.6906 14.7335C66.151 17.9481 63.2624 20.499 59.8656 21.641C60.0936 18.749 62.5113 16.5058 65.0262 15.0152C67.713 13.4246 70.7025 12.3345 73.7929 11.8229C72.3318 10.1469 69.8094 9.47954 67.7018 10.2063C68.0344 8.87517 68.9238 7.69239 70.1121 6.99533C69.8505 6.37613 68.9238 6.57635 68.3184 6.8841C64.4022 8.87517 60.486 10.8662 56.5697 12.8573C57.0817 9.86886 57.1527 6.80624 56.7902 3.79552C56.7454 3.41362 56.5772 2.9242 56.1886 2.92791C55.841 2.92791 55.6579 3.32835 55.557 3.65834C53.6176 10.1099 50.9645 16.35 47.6685 22.2306C48.2067 14.8484 49.9966 7.55891 52.9338 0.755152C53.0048 0.588302 53.0795 0.399205 53.016 0.228648C52.8366 -0.260778 52.093 0.12483 51.794 0.551224C47.7582 6.27973 45.12 12.9686 44.1596 19.8947C41.91 14.5592 38.7823 9.59077 34.9408 5.24526C34.3616 4.58899 33.1471 4.01428 32.7846 4.80775C35.8937 10.1766 39.0327 15.6233 40.6171 21.6151C38.3414 16.2425 33.7338 11.8896 28.2182 9.89481C25.1353 8.77877 21.518 8.43395 18.7079 10.1136C20.4306 10.6289 22.2803 10.5548 24.0367 10.9552C29.3131 12.164 32.6202 17.2177 35.3668 21.8524C32.8033 22.8016 29.8886 22.39 27.3737 21.3222C24.8588 20.2543 22.6652 18.571 20.5016 16.9099L13.9359 11.8673C13.3941 13.6916 14.7431 15.4898 16.0024 16.9247C15.9314 16.9173 15.8604 16.9136 15.7857 16.9062C15.8156 16.9396 15.8455 16.9767 15.8791 17.01C16.2453 17.403 16.7199 17.6885 17.1197 18.0445C18.0876 18.9158 18.9657 19.8873 19.9037 20.792C20.0532 20.9366 20.169 21.0886 20.255 21.2443C21.0023 21.9043 21.6824 22.6421 22.2691 23.4541C13.7117 24.433 5.67375 29.2457 0.815839 36.3053C0.595364 36.6278 0.37489 37.0542 0.584154 37.3842C0.924208 37.9219 1.75005 37.4695 2.191 37.0098C10.0608 28.8897 22.8857 25.9235 33.5619 29.7611C25.9088 32.6123 16.4471 29.3532 9.69087 33.9175C9.15277 34.2808 8.68566 35.1818 9.28356 35.4339C12.4076 34.3439 15.8604 34.203 19.0629 35.0409C14.6796 37.4361 10.7335 40.6174 7.46744 44.3808C6.88449 45.0519 6.37628 46.2013 7.12365 46.687C9.5414 44.822 12.2282 43.2907 15.0719 42.1598C13.6818 43.6689 12.2955 45.178 10.9054 46.687C10.4532 47.1802 10.1094 48.1553 10.7559 48.3407C14.4404 45.215 19.2572 43.4316 24.1077 43.3945C21.4321 46.2347 19.8962 50.1056 19.8962 53.9951C22.9044 51.4107 26.1928 49.1527 29.6868 47.2692C31.3871 46.3533 33.2069 45.508 35.1426 45.482C37.0783 45.4561 39.1485 46.4609 39.7987 48.2665C40.0566 48.9896 41.0132 49.1156 41.7867 49.1193L48.7971 49.1675C50.0153 49.1749 51.3419 49.149 52.2948 48.3963C54.5369 46.6203 56.9359 45.0371 59.4546 43.6689C61.3081 42.6604 63.2512 41.7631 65.3214 41.3404C70.9529 40.1873 76.6292 42.6344 81.8496 45.0222C82.4437 45.2929 83.1051 44.5884 83.0491 43.9396C82.993 43.2907 82.5072 42.779 82.0476 42.3156C80.0297 40.2911 78.0081 38.2667 75.9902 36.2422C76.177 35.5563 76.958 35.2337 77.6531 35.0743C78.3481 34.9149 79.1329 34.7814 79.5663 34.2178C79.9998 33.6542 79.6037 32.5604 78.9087 32.7273C74.6524 33.7432 70.142 33.7024 65.9044 32.6086C71.4536 29.3013 78.5275 29.6758 84.7382 31.4926C85.3809 31.6817 86.2964 31.7521 86.5057 31.1218C80.5342 26.7207 72.7914 24.7519 65.4261 25.7752ZM63.8529 22.4827C64.4209 21.5076 65.0972 20.3359 66.2295 20.2914L65.2505 22.7793C64.7759 23.9881 64.2639 25.2487 63.2587 26.0792C62.3955 26.7911 61.2109 27.11 60.1048 26.9209C61.5995 25.6677 62.8738 24.1623 63.8529 22.4827ZM48.4495 30.9364C51.6819 24.8816 55.9494 19.4386 60.2879 14.1068C60.6691 13.6397 61.1324 13.1317 61.7378 13.1354C58.0607 19.0271 54.6415 25.0781 51.4951 31.2664C50.2133 33.7877 48.9017 36.4239 46.6521 38.1592C46.3868 38.3631 46.0056 38.5559 45.7403 38.3483C46.1028 35.7343 47.2052 33.2723 48.4495 30.9364ZM11.7835 42.1265C13.622 39.5792 16.4546 37.9404 19.2423 36.4684C22.6503 34.6664 26.1517 32.9831 29.8886 32.0191C33.6254 31.0551 37.6313 30.84 41.3196 31.9709C42.4668 32.3231 43.6141 32.8311 44.3913 33.7358C45.1686 34.6442 45.475 36.0309 44.851 37.0468C44.6081 37.4398 44.2232 37.7624 43.7673 37.8588C43.2179 37.9738 42.6649 37.755 42.1417 37.5585C39.709 36.6464 37.1381 36.1051 34.541 35.9567C26.6001 35.5007 18.9471 38.7042 11.7835 42.1265ZM30.8153 45.0667C29.5261 45.9974 27.979 47.1431 26.5105 46.535C30.6098 42.6048 36.2599 40.7138 41.8278 39.5125C42.5827 39.3494 43.5954 39.3234 43.8794 40.0353C43.4683 40.6137 42.8069 40.9808 42.1156 41.1625C41.5775 41.3033 41.0169 41.3367 40.4639 41.3923C36.9961 41.752 33.6329 43.0349 30.8153 45.0667ZM79.6486 42.0486C78.7181 42.2748 77.7764 41.8187 76.9094 41.4072C73.0231 39.5607 68.8005 38.4113 64.5068 38.0331C60.1833 37.6512 55.7364 38.0665 51.7156 39.6831C47.6947 41.2996 44.1185 44.1806 42.0857 47.9848C41.4355 47.7252 41.499 46.7909 41.7382 46.1383C42.9041 42.9422 45.4488 40.3727 48.386 38.6226C51.3232 36.8726 54.6453 35.864 57.9748 35.0595C60.4486 34.4588 62.9897 33.9583 65.5307 34.1473C71.0463 34.5515 75.7959 38.1184 79.6486 42.0486ZM62.0031 32.8793C62.2161 32.3862 62.8402 32.1081 63.3521 32.2823L63.382 32.286C63.5875 32.16 63.8005 32.5864 63.5763 32.6754C63.098 32.9238 62.53 33.0016 62.0031 32.8793ZM56.196 33.1055C54.5182 34.3031 52.0332 34.4032 50.8785 36.1051C50.4376 36.0643 50.531 35.3895 50.7739 35.0224C52.1827 32.883 54.1856 31.1366 56.5062 30.0317C57.8328 29.3977 59.2528 28.975 60.6765 28.6005C64.2452 27.6587 67.9074 27.0062 71.6031 26.9246C72.201 26.9098 72.9334 26.9988 73.1651 27.5438C67.1861 28.2668 61.0876 29.6202 56.196 33.1055Z"
+                                fill="#474F40" />
+                        </svg>
+                    </div>
+                    <div class="title__container">
+                        <span class="title">NUESTROS SERVICIOS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="marcas">
+
+                <div class="left">
+                    <div class="atb__container">
+                        <span class="atb"> <span style="font-weight: 900;"> Cuadros</span> (Letrero o rótulo de tu marca
+                            para tu evento, local o negocio)</span>
+                        <svg height="1" width="10vw">
+                            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#474F40;stroke-width:2" />
+                        </svg>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb">
+                            <span style="font-weight: 900;"> Decoración para bodas</span>
+
+                            (Ceremonias, mesas, seating
+                            planner, menú, decoración de
+                            salones y espacios, estaciones)</span>
+                        <svg height="1" width="10vw">
+                            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#474F40;stroke-width:2" />
+                        </svg>
+                    </div>
+                    <div class="atb__container">
+                        <span class="atb">
+                            <span style="font-weight: 900;"> Decoración para espacios comerciales</span>
+
+                            (Escaparates, letreros, salones, murales)</span>
+                        <svg height="1" width="10vw">
+                            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#474F40;stroke-width:2" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="video__inner__container">
+                        <video playsinline autoplay muted loop>
+                            <source src="./assets/images/(PC) VIDEO NUESTROS SERVICIOS.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="atb__container">
+                        <svg height="1" width="10vw">
+                            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#474F40;stroke-width:2" />
+                        </svg>
+                        <span class="atb">
+                            <span style="font-weight: 900;"> Decoración para campañas corporativas</span>
+
+                            (Lanzamientos, eventos, colaboraciones entre marcas, promociones)</span>
+                    </div>
+                    <div class="atb__container">
+                        <svg height="1" width="10vw">
+                            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#474F40;stroke-width:2" />
+                        </svg>
+                        <span class="atb">
+                            <span style="font-weight: 900;"> Diseño de interiores</span>
+                            (Creación
+                            de espacios en el hogar, mejoras integrales, recuperación de espacios y
+                            muebles)</span>
+                    </div>
+                    <div class="atb__container">
+                        <svg height="1" width="10vw">
+                            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:#474F40;stroke-width:2" />
+                        </svg>
+                        <span class="atb">
+
+                            <span style="font-weight: 900;"> Decoración para eventos </span>(Despedidas, reuniones de
+                            empresa, baby showers,
+                            cumpleaños, aniversarios, pedidas de mano…etc) </span>
+                    </div>
+                </div>
+
+            </div> -->
+
+        <section
+          class="elementor-top-section"
+          data-id="a80abf8"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ec64d70"
+              data-id="ec64d70"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-0b69c07 elementor-widget elementor-widget-castella_core_text_marquee"
+                  data-id="0b69c07"
+                  data-element_type="widget"
+                  data-widget_type="castella_core_text_marquee.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      class="qodef-shortcode qodef-m qodef-text-marquee qodef-text-marquee-107 qodef-layout--default qodef-direction--left qodef--init"
+                    >
+                      <div class="qodef-m-content">
+                        <div class="qodef-m-content-inner">
+                          <span
+                            class="qodef-m-text-1"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                          <span
+                            class="qodef-m-text-2"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                          <span
+                            class="qodef-m-text-3"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                        </div>
+                        <div class="qodef-m-content-inner qodef--copy">
+                          <span
+                            class="qodef-m-text-1"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                          <span
+                            class="qodef-m-text-2"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                          <span
+                            class="qodef-m-text-3"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                        </div>
+                        <div class="qodef-m-content-inner qodef--copy">
+                          <span
+                            class="qodef-m-text-1"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                          <span
+                            class="qodef-m-text-2"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                          <span
+                            class="qodef-m-text-3"
+                            style="color: #ffff; font-size: 20px"
+                          >
+                            arte ~ diseño ~ sostenibilidad ~ decoración ~
+                            <span class="qodef-m-separator-holder"
+                              ><span class="qodef-m-separator"></span
+                            ></span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="contacto">
+          <!-- <div class="contacto__container">
+
+                    <div class="blog-section">
+                        <h2>
+                            WE’RE GETTING MARRIED!
+                        </h2>
+                        <p>
+                            Come & celebrate with us
+                        </p>
+                        <p class="qodef-m-text" style="margin: 2% 10% 0% 10%">Tellus eget condimentum rhoncus, sem quam
+                            nec vitae sapien semper libero,
+                            blandit vel, rhoncus venenatis luctus pulvinar, hendrerit id, lorem. </p>
+                    </div>
+
+                </div> -->
+          <h2
+            class="title__inner"
+            id="title-change"
+            style="text-align: center; text-transform: capitalize"
+          >
+            entérate, explora, descubre
+          </h2>
+
+          <div class="miembros" style="padding: 40px 0px">
+            <article
+              style="margin: 0px 20px"
+              class="qodef-e qodef-blog-item qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+            >
+              <a href="https://castella.qodeinteractive.com/" target="_blank">
+                <div class="qodef-e-inner">
+                  <div class="qodef-e-media">
+                    <div class="qodef-e-media-image">
+                      <a
+                        itemprop="url"
+                        href="https://castella.qodeinteractive.com/"
+                      >
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          src="./assets/images/landing/4.png"
+                          class="attachment-full size-full"
+                          alt="a"
+                          style="width: 100%"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="qodef-e-content">
+                    <div class="qodef-e-info">
+                      <p class="title__inner12">
+                        Eventos con conciencia ambiental: Ideas para decoración
+                        en Valencia
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article
+              style="margin: 0px 20px"
+              class="qodef-e qodef-blog-item qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+            >
+              <a href="https://castella.qodeinteractive.com/" target="_blank">
+                <div class="qodef-e-inner">
+                  <div class="qodef-e-media">
+                    <div class="qodef-e-media-image">
+                      <a
+                        itemprop="url"
+                        href="https://castella.qodeinteractive.com/"
+                      >
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          src="./assets/images/landing/5.png"
+                          class="attachment-full size-full"
+                          alt="a"
+                          style="width: 100%"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="qodef-e-content">
+                    <div class="qodef-e-info">
+                      <p class="title__inner12">
+                        El encanto de las flores secas y de temporada en la
+                        decoración Eco-consciente
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article
+              style="margin: 0px 20px"
+              class="qodef-e qodef-blog-item qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+            >
+              <div class="qodef-e-inner">
+                <div class="qodef-e-media">
+                  <div class="qodef-e-media-image">
+                    <a itemprop="url" href="#">
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        src="./assets/images/landing/6.png"
+                        class="attachment-full size-full"
+                        alt="a"
+                        style="width: 100%"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="qodef-e-content">
+                  <div class="qodef-e-info">
+                    <p class="title__inner12">
+                      Descubre el mundo del diseño sostenible: tendencias y
+                      estilos
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article
+              style="margin: 0px 20px"
+              class="qodef-e qodef-blog-item qodef-grid-item qodef-item--full post-2531 post type-post status-publish format-audio has-post-thumbnail hentry category-ceremony category-dress tag-church tag-decor tag-hall tag-lake tag-lights tag-photography post_format-post-format-audio"
+            >
+              <div class="qodef-e-inner">
+                <div class="qodef-e-media">
+                  <div class="qodef-e-media-image">
+                    <a itemprop="url" href="#">
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        src="./assets/images/landing/7.png"
+                        class="attachment-full size-full"
+                        alt="a"
+                        style="width: 100%"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="qodef-e-content">
+                  <div class="qodef-e-info">
+                    <p class="title__inner12">
+                      Impresos con arte eco-amigable: Qué materiales usar y
+                      cuales mejor no
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- <div style="text-align: center;">
+                    <a href="Blog.html" style=" color: #474f40;text-decoration: none;">
+                        <button
+                            style="padding: 15px ;cursor: pointer;; width: 150px; color: #474f40; border: 1px solid #474f40; background-color: transparent; border-radius: 10px;">
+
+                            View
+                            All
+                        </button>
+                    </a>
+                </div> -->
+        </div>
+        <!-- <div class=" contacto">
+                <div class="contacto__container mb-mr">
+                    <div class="img__container left star">
+                        <img src="./assets/images/SUN RED.svg" alt="">
+                    </div>
+                    <div class="mail__container">
+                        <a href="mailto:info@terracottaorigen.com" class="mail">info@terracottaorigen.com</a>
+                    </div>
+                    <div class="img__container right star">
+                        <img src="./assets/images/SUN RED.svg" alt="">
+
+                    </div>
+                </div>
+                <div class="social__container">
+                    <div class="social__inner__container">
+                        <a href="https://www.instagram.com/terracottaorigen/?igsh=MzRlODBiNWFlZA%3D%3D"
+                            class="social__link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="#" class="social__link" rel="noopener noreferrer">Ubicación</a>
+                        <a href="#" class="social__link" rel="noopener noreferrer">ABOUT US </a>
+                    </div>
+                </div>
+                <div class="scrollUp__container">
+                    <div class="scrollUp__inner__container">
+                        <a href="#alalimon" class="scrollUp"></a>
+                    </div>
+                </div>
+            </div> -->
+
+        <!-- 
+            <footer id="colophon" class="site-footer">
+                <div class="site-info">
+                    <div class="link__container">
+                        <a href="contact.html" class="legalink link"> Contact formulary </a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="link__container">
+                        <a href="#" class="legalink link">Cookies policy</a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="link__container">
+                        <a href="#" class="legalink link">Privacy policy</a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="link__container">
+                        <a href="#" class="legalink link">All rights reserved</a>
+                        <div class="line__container">
+                            <svg class="line">
+                                <line x1="0" y1="0" x2="100%" y2="0" />
+                            </svg>
+                        </div>
+                    </div>
+                </div> 
+            </footer>  -->
+      </main>
+    </div>
+    <!-- #page -->
+    <script src="./assets/js/SVGPlugin.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+      // Smooth scroll function
+      function scrollToSection(targetId) {
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: "smooth",
+          });
+        }
+      }
+
+      // Add click event listeners to your navigation links
+      const estudioNavLinks = document.querySelectorAll(".estudio__nav");
+      estudioNavLinks.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          scrollToSection(targetId);
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var menuButton = document.getElementById("menuButton");
+        var hiddenNav = document.querySelector(".hidden__nav");
+        const closeButton = document.querySelector(".xclose");
+
+        menuButton.addEventListener("click", function () {
+          hiddenNav.style.display =
+            hiddenNav.style.display === "none" || hiddenNav.style.display === ""
+              ? "block"
+              : "none";
+        });
+        closeButton.addEventListener("click", function () {
+          // Close the hidden nav when close button is clicked
+          hiddenNav.style.display = "none";
+        });
+      });
+    </script>
+  </body>
+</html>
