@@ -1113,7 +1113,7 @@ body {
 
 @media (max-width: 676px) {
   .title__logo img {
-    height: 150px;
+    height: 80px;
     width: 90%;
   }
 }
@@ -1248,6 +1248,12 @@ body {
   font-size: 2.5vw;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
+}
+
+@media (max-width: 676px) {
+  #title-change {
+    font-size: 20px;
+  }
 }
 
 .font-change {
