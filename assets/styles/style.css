@@ -1545,9 +1545,14 @@ input::placeholder {
   }
 }
 
+#title-service {
+  margin-top: 20px;
+}
+
 @media (max-width: 676px) {
   #title-service {
     font-size: 26px;
+    margin-top: 30px;
   }
 }
 
